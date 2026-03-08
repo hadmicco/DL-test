@@ -65,7 +65,7 @@ pip install pandas numpy tensorflow scikit-learn joblib rasterio matplotlib
 
 - 模型在测试集上的准确率较高（最终精度取决于数据质量和样本量）
 
-- 可输出郑州市城市区域树种分布专题图、分类报告、混淆矩阵、Kappa 系数等评估结果
+- 可输出郑州城市区域的树种分布专题图、分类报告、混淆矩阵、Kappa 系数等评估结果
 
 - 支持单个样本的树种预测，输出预测树种名称和预测概率
 
