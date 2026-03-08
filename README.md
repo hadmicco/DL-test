@@ -41,7 +41,8 @@ pip install pandas numpy tensorflow scikit-learn joblib rasterio matplotlib
 │   ├── sentinel1.tif     # Sentinel-2 多光谱遥感影像
 │   ├── sentinel1.tif     # Sentinel-1 SAR雷达影像
 │   ├── gf2.tif           # GF-2 高分二号高分辨率影像
-│   └── GUTS_dataset.xlsx # 全球城市树种数据集(GUTS)
+│   ├── GUTS_dataset.xlsx # 全球城市树种数据集(GUTS)
+│   └── GUTS_Metadata.xml # 全球城市树种元数据
 ├── tree_species_remote.ipynb # 项目主运行脚本
 └── README.md             # 项目说明文档
 ```
