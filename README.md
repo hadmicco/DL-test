@@ -72,7 +72,7 @@ pip install pandas numpy tensorflow scikit-learn joblib rasterio matplotlib
 
 ## 数据说明
 
-- 遥感影像可从[哥白尼数据开放中心](https://scihub.copernicus.eu/)、[国家地理信息公共服务平台](https://www.tianditu.gov.cn/)获取
+- 遥感影像可从[Google Earth Engine](https://earthengine.google.com/)、[哥白尼数据开放中心](https://scihub.copernicus.eu/)、[国家地理信息公共服务平台](https://www.tianditu.gov.cn/)获取
 
 - 全球城市树种数据集(GUTS)来源于Yang, X., Yan, P., Jin, J.等.全球城市树种（GUTS）：揭示世界城市地区的树种多样性. 科学数据 (2026). https://doi.org/10.1038/s41597-026-06868-2
   
