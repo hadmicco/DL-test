@@ -3,7 +3,7 @@
 
 ## 项目介绍
 
-本项目结合多源遥感影像（Sentinel-2 光学影像、Sentinel-1 雷达影像、高分二号高分辨率影像）与全球城市树种数据集(GUTS)，采用Swin Transformer+MLP多模态融合深度学习模型，实现郑州地区的树种精准分类，解决单一属性数据分类的局限性，提升分类的客观性和泛化能力。
+本项目结合多源遥感影像（Sentinel-2 光学影像、Sentinel-1 雷达影像）与全球城市树种数据集(GUTS)，采用Swin Transformer+MLP多模态融合深度学习模型，实现郑州地区的树种精准分类，解决单一属性数据分类的局限性，提升分类的客观性和泛化能力。
 
 ## 依赖安装
 
@@ -18,7 +18,7 @@ pip install pandas numpy tensorflow scikit-learn joblib rasterio matplotlib
 
 1. **数据准备**
 
-    - 将遥感影像文件（Sentinel-2、Sentinel-1、GF-2）放入项目的`./data`目录
+    - 将遥感影像文件（Sentinel-1、Sentinel-1、GF-2）放入项目的`./data`目录
 
     - 将全球城市树种数据集(GUTS)（GUTS_dataset.xlsx）放入`./data`目录
 
@@ -38,9 +38,8 @@ pip install pandas numpy tensorflow scikit-learn joblib rasterio matplotlib
 ```Plain Text
 
 ├── data/                 # 数据目录
-│   ├── sentinel2.tif     # Sentinel-2多光谱遥感影像
+│   ├── sentinel1.tif     # Sentinel-2 多光谱遥感影像
 │   ├── sentinel1.tif     # Sentinel-1 SAR雷达影像
-│   ├── gf2.tif           # 高分二号高分辨率影像
 │   └── GUTS_dataset.xlsx # 全球城市树种数据集(GUTS)
 ├── tree_species_remote.ipynb # 项目主运行脚本
 └── README.md             # 项目说明文档
@@ -66,7 +65,7 @@ pip install pandas numpy tensorflow scikit-learn joblib rasterio matplotlib
 
 - 模型在测试集上的准确率较高（最终精度取决于数据质量和样本量）
 
-- 可输出郑州树种分布专题图、分类报告、混淆矩阵、Kappa 系数等评估结果
+- 可输出郑州市城市区域树种分布专题图、分类报告、混淆矩阵、Kappa 系数等评估结果
 
 - 支持单个样本的树种预测，输出预测树种名称和预测概率
 
